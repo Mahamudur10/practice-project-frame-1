@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: "Work Sans", sans-serif;
+}
 .container {
     width: 100%;
     min-height: 100vh;
@@ -50,6 +52,8 @@
 }
 .body-container{
     padding: 130px 230px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .first-img{
@@ -87,7 +91,7 @@ margin-bottom: 16px;
 .plans-area{
     width: 1141px;
     text-align: center;
-    margin: 0 auto;
+    margin: 130px auto;
 }
 .plans-area .head-text{
     color: var(--Dark 01, rgba(21, 20, 20, 1));
@@ -117,4 +121,58 @@ line-height: 35px;
 font-size: 20px;
 font-weight: 500;
 line-height: 29px;
+}
+
+.under-img{
+    width: 1141px;
+    margin: 0 auto;
+}
+
+/*  */
+.main-footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 130px 230px;
+    justify-content: space-between;
+}
+.left-footer{
+    width: 485px;
+    color: rgba(248, 248, 248, 1);
+}
+.left-footer h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.left-footer p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.left-footer img{
+    margin: 5px;
+}
+.right-footer{
+    width: 325px;
+    color: rgba(255, 255, 255, 1);
+}
+.right-footer h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+}
+.right-footer .email{
+    display: block;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.911);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.right-footer .btn{
+    color: #F15B22;
+    padding: 20px 35px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
 }
