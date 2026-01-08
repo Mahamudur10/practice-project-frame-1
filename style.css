@@ -48,3 +48,73 @@
     border: none;
 
 }
+.body-container{
+    padding: 130px 230px;
+}
+
+.first-img{
+    width: 569px;
+    
+}
+.right-text{
+    width: 416px;
+}
+.right-text h2{
+    color: var(--Dark 01, rgba(21, 20, 20, 1));
+    width: 288px;
+    font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 24px;
+}
+.right-text p{
+    color: var(--Dark 02, rgba(68, 67, 67, 1));
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 16px;
+}
+.right-text li{
+    color: var(--Dark 02, rgba(68, 67, 67, 1));
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+/* plans area */
+
+.plans-area{
+    width: 1141px;
+    text-align: center;
+    margin: 0 auto;
+}
+.plans-area .head-text{
+    color: var(--Dark 01, rgba(21, 20, 20, 1));
+    font-style: Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+margin-bottom: 55px;
+}
+.plans-area .all-skill{
+    display: flex;
+    justify-content: space-around;
+}
+.all-skill .skill img{
+    width: 90px;
+}
+.all-skill .skill h3{
+    color: var(--Dark 01, rgba(21, 20, 20, 1));
+    font-style: Bold;
+font-size: 30px;
+font-weight: 700;
+line-height: 35px;
+}
+.all-skill .skill p{
+    color: var(--Dark 03, rgba(115, 114, 114, 1));
+    font-style: Medium;
+font-size: 20px;
+font-weight: 500;
+line-height: 29px;
+}
